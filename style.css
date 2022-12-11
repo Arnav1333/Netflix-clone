@@ -1,0 +1,67 @@
+body{
+    background-color: black;
+    font-family:  Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+  
+    
+}
+section{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:4px;
+    color:white;
+    border-bottom: 8px solid #222;
+    padding:70px 35px;
+}
+section div.texts h1{
+    font-size:3.125rem;
+}
+section div.texts p{
+    font-size:1.625rem;
+    padding-right: 50px;
+
+}
+.media{
+    position :relative
+}
+.media.s1 img{
+    width:400px;
+   
+
+}
+.media.s1 video{
+    width:290px;
+    position:absolute;
+    top:65px;
+    left:53px;
+}
+section:nth-child(even) div.texts{
+    order:2;
+}
+
+.media.s2 img{
+   width: 400px;
+}
+.hero-vid{
+    width:387px;
+    position:absolute;
+    top:50px;
+  
+    left:120px;
+}
+.media.s2{
+
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 40% 50%;
+    text-align: left;
+    align-items: center;
+    padding: 25px 45px 50px;
+}
+
+
+
+.stranger{
+    
+    width: 10px;
+    padding-left: 100px;
+}
