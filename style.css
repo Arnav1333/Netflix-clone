@@ -4,6 +4,7 @@ body{
   
     
 }
+
 section{
     display:grid;
     grid-template-columns:1fr 1fr;
@@ -11,9 +12,11 @@ section{
     color:white;
     border-bottom: 8px solid #222;
     padding:70px 35px;
+    align-items: center;
 }
 section div.texts h1{
     font-size:3.125rem;
+    margin-bottom: 8px;
 }
 section div.texts p{
     font-size:1.625rem;
@@ -24,15 +27,20 @@ section div.texts p{
     position :relative
 }
 .media.s1 img{
-    width:400px;
+    width:600px;
+    position: relative;
+    z-index: 5;
    
 
 }
 .media.s1 video{
-    width:290px;
+    width:500px;
     position:absolute;
-    top:65px;
-    left:53px;
+    top:95px;
+    left:81px;
+   
+    max-height: 54%;
+    max-width: 73%;
 }
 section:nth-child(even) div.texts{
     order:2;
@@ -45,8 +53,9 @@ section:nth-child(even) div.texts{
     width:387px;
     position:absolute;
     top:50px;
-  
+    z-index: 2; 
     left:120px;
+
 }
 .media.s2{
 
@@ -58,7 +67,10 @@ section:nth-child(even) div.texts{
     padding: 25px 45px 50px;
 }
 
-
+.media.s3 img{
+    position: relative;
+    z-index: 5;
+}
 
 .stranger{
     
